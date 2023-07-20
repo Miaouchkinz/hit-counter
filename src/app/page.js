@@ -2,6 +2,8 @@ import Censored from '../components/Censored/Censored';
 import HitCounter from '../components/HitCounter/HitCounter';
 import React from 'react';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * SERVER-SIDE COMPONENT SANDBOX
  *

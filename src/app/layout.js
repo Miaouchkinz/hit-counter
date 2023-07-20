@@ -1,6 +1,6 @@
-import React from 'react';
-
 import './styles.css';
+
+import React from 'react';
 
 function RootLayout({ children }) {
   return (
@@ -8,8 +8,7 @@ function RootLayout({ children }) {
       <body>
         {children}
         <footer>
-          Page rendered on{' '}
-          {new Date().toLocaleString()}
+          Page rendered on {new Date().toLocaleString()}
         </footer>
       </body>
     </html>
